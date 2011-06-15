@@ -1,0 +1,20 @@
+nb:
+  plugins:
+    accessible_pages:
+      title: Accessible Pages
+  admin:
+    accessible_pages:
+      index:
+        title: Accessible Pages
+        create_new: Lag en ny Accessible Page
+        reorder: Endre rekkefølgen på Accessible Pages
+        reorder_done: Ferdig å endre rekkefølgen Accessible Pages
+        sorry_no_results: Beklager! Vi fant ikke noen resultater.
+        no_items_yet: Det er ingen Accessible Pages enda. Klikk på "Lag en ny Accessible Page" for å legge til din første accessible page.
+      accessible_page:
+        view_live_html: Vis hvordan denne accessible page ser ut offentlig <br/><em>(åpner i et nytt vindu)</em>
+        edit: Rediger denne accessible page
+        delete: Fjern denne accessible page permanent
+  accessible_pages:
+    show:
+      other: Andre Accessible Pages

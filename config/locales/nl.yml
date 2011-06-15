@@ -1,0 +1,20 @@
+nl:
+  plugins:
+    accessible_pages:
+      title: Accessible Pages
+  admin:
+    accessible_pages:
+      index:
+        title: Accessible Pages
+        create_new: Maak een nieuwe Accessible Page
+        reorder: Wijzig de volgorde van de Accessible Pages
+        reorder_done: Klaar met het wijzingen van de volgorde van de Accessible Pages
+        sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+        no_items_yet: Er zijn nog geen Accessible Pages. Druk op 'Maak een nieuwe Accessible Page' om de eerste aan te maken.
+      accessible_page:
+        view_live_html: Bekijk deze accessible page op de website <br/><em>(opent een nieuw venster)</em>
+        edit: Bewerk deze accessible page
+        delete: Verwijder deze accessible page voor eeuwig
+  accessible_pages:
+    show:
+      other: Andere Accessible Pages

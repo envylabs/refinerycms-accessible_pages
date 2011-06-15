@@ -1,0 +1,24 @@
+en:
+  shared:
+    admin:
+      image_picker:
+        image: image
+  plugins:
+    accessible_pages:
+      title: Accessible Pages
+  admin:
+    accessible_pages:
+      index:
+        title: Accessible Pages
+        create_new: Add New Accessible Page
+        reorder: Reorder Accessible Pages
+        reorder_done: Done Reordering Accessible Pages
+        sorry_no_results: Sorry! There are no results found.
+        no_items_yet: There are no Accessible Pages yet. Click "Add New Accessible Page" to add your first accessible page.
+      accessible_page:
+        view_live_html: View this accessible page live <br/><em>(opens in a new window)</em>
+        edit: Edit this accessible page
+        delete: Remove this accessible page forever
+  accessible_pages:
+    show:
+      other: Other Accessible Pages

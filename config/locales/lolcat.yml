@@ -1,0 +1,24 @@
+lolcat:
+  shared:
+    admin:
+      image_picker:
+        image: IMAGE
+  plugins:
+    accessible_pages:
+      title: Accessible Pages
+  admin:
+    accessible_pages:
+      index:
+        title: Accessible Pages
+        create_new: CREATE NEW Accessible Page
+        reorder: REORDR Accessible Pages
+        reorder_done: DUN REORDERIN Accessible Pages
+        sorry_no_results: SRY! THAR R NO RESULTS FINDZ.
+        no_items_yet: THAR R NO Accessible Pages YET. CLICK "CREATE NEW Accessible Page" 2 ADD UR FURST accessible page.
+      accessible_page:
+        view_live_html: VIEW DIS accessible page LIV <BR/><EM>(OPENS IN NEW WINDOW)</EM>
+        edit: EDIT DIS accessible page
+        delete: REMOOV DIS accessible page FOREVR
+  accessible_pages:
+    show:
+      other: OTHR Accessible Pages

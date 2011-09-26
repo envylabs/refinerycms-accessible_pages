@@ -8,13 +8,6 @@ module Refinery
         app.middleware.insert_after ::ActionDispatch::Static, ::ActionDispatch::Static, "#{root}/public"
       end
 
-      config.after_initialize do
-        Refinery::Plugin.register do |plugin|
-          plugin.name = "accessible_pages"
-          plugin.activity = {:class => AccessiblePage}
-        end
-      end
-
       refinery.after_inclusion do
         ::User.class_eval do
           has_one :accessible_page
